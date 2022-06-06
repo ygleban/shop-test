@@ -1,12 +1,59 @@
-.pt {
+body {
     font-family: "PT Sans", "Arial",  sans-serif;
+    font-size: 14px;
 }
 
 .headline{
     font-family: 'Playfair Display', "Arial", serif;
+    font-size: 2.57em;
+}
+
+.mini-headline{
+    font-family: 'Playfair Display', "Arial", serif;
+    font-size: 1.71em;
 }
 
 .season-name {
     font-family: 'Playfair Display', "Arial", serif;
-    font-size: 20px;
+    font-size: 1.28em;
 }
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: gray;
+    display: flex;
+    vertical-align: middle;
+    padding: 14px;
+    font-size: 12px;
+    line-height: 16px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: gray;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 15px 90px 2px 140px 2px 70px;
+    grid-column-gap: 12px;
+    margin-left: 21%;
+}
+
+.tel-icon {
+    margin-top: 1px;
+}
+
+.registration-info{
+    display: grid;
+    grid-template-columns: 15px 130px;
+    grid-column-gap: 12px;
+    margin-left: 30%
+}
+
+
